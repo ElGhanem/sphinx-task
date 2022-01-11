@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>sphinx task</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="loader"></div>
+    
+    <div class="main_container">
+      <div class="page_content">
+        <div class="container-fluid">
+            <!-- start header -->
+            <div class="col-sm-12 header my_header">
+                <div class="col-sm-9 head_part1">
+                    <h1>Complete the words.</h1>
+                </div>
+                <div class="part2">
+                    <img src="./assets/img/resourse_icon.png" class="imgBtn resourceBtn">
+                </div>
+                <div class="part2">
+                    <img src="./assets/img/help_icon.png" class="imgBtn infoBtn">
+                </div>
+            </div>
+            <!-- end header -->
+
+            <!-- start content body -->
+            <section class="content_body">
+                <div class="contentBg"></div>
+                <div class="content">
+                    <div class="choices">
+                        <div class="choices_container">
+                            <span class="choice choice_1">a</span>
+                            <span class="choice choice_2">p</span>
+                        </div>
+                    </div>
+                    <div class="questions">
+                        <div class="col-sm-12">
+                            <div class="col-sm-6 question">
+                                <div class="question_text">
+                                    1&nbsp;&nbsp;t
+                                    <span class="answer_field question_1" data-answer='a'>&nbsp;</span>
+                                    p
+                                </div>
+                                <img class="question_img" src="./assets/img/tap.png">
+                            </div>
+
+                            <div class="col-sm-6 question">
+                                <div class="question_text">
+                                    2&nbsp;&nbsp;
+                                    <span class="answer_field question_2" data-answer='p'>&nbsp;</span>
+                                    a t
+                                </div>
+                                <img class="question_img" src="./assets/img/pat.png">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="question">
+                                <div class="question_text">
+                                    3&nbsp;&nbsp;m
+                                    <span class="answer_field question_3" data-answer='a'>&nbsp;</span>
+                                    p
+                                </div>
+                                <img class="question_img" src="./assets/img/map.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end content body -->
+
+            <!-- start footer -->
+            <div>
+                <div class="col-sm-12 footer">
+                    <div class='col-sm-7'>
+                        <img src="./assets/img/replay_icon.png" class="imgBtn reloadBtn">
+                    </div>
+                    <div class='col-sm-5'>
+                        <img src="./assets/img/showAns_icon.png" class="imgBtn showBtn">
+                    </div>
+                </div>
+            </div>
+            <!-- end footer -->
+
+            <!-- start resource modal -->
+            <div class="resource_modal" style="display: none;">
+                <div class="resource_content">
+                    <img class="closeBtn" src="./assets/img/close_icon.png">
+                    <div class="img_style">
+                        <img src="./assets/img/dummy.jpg">
+                    </div>
+                </div>
+            </div>
+            <!-- end resource modal -->
+
+            <!-- start info modal -->
+            <div class="info_modal" style="display: none;">
+                <div class="info_content">
+                    <img class="closeBtn" src="./assets/img/close_icon.png">
+                    <div class="p_style">
+                        <p>Help content goes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end info modal -->
+
+
+        </div>
+      </div>  
+    </div>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
