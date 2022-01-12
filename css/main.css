@@ -19,11 +19,12 @@ body {
 }
 
 .main_container {
-    position: absolute;
+    position: relative;
+    /* position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: 0; */
 }
 
 .my_header {
@@ -38,16 +39,10 @@ body {
 }
 
 .page_content {
+    width: 1280px;
+    position: absolute;
     transition: all 500ms ease-in-out !important;
     transform-origin: top left;
-    width: 85%;
-    position: absolute;
-
-    /*just for now */
-    transform: scale(0.795);
-    -webkit-transform: scale(0.795);
-    top: 0px;
-    left: 16%;
 }
 
 
@@ -217,8 +212,8 @@ body {
 
 .ansImg {
     position: absolute; 
-    margin-top: -3%; 
-    margin-left: 3%;
+    top: 0;
+    margin-left: 35px;
 }
 
 .disabledbutton {
